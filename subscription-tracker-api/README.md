@@ -121,14 +121,15 @@ Visit [http://localhost:5500](http://localhost:5500) in Postman or browser.
 
 ```json
 {
-  "name": "JavaScript Mastery Elite Membership",
+  "name": "Elite Frontend Development Membership",
   "price": 139.00,
   "currency": "USD",
   "frequency": "monthly",
-  "category": "Entertainment",
-  "startDate": "2025-01-20T00:00:00.000Z",
+  "category": "Educational",
+  "startDate": "2025-07-20T00:00:00.000Z",
   "paymentMethod": "Credit Card"
 }
+
 ```
 
 </details>
