@@ -1,9 +1,7 @@
 
 <div align="center">
   <br />
-    <a href="https://youtu.be/rOpEN1JDaD0?si=WfOjLV57WfR9x6QK" target="_blank">
-      <img src="https://i.ibb.co/xtTbHkfs/Readme-Thumbnail.png" alt="Project Banner">
-    </a>
+    <a href="https://youtu.be/rOpEN1JDaD0?si=WfOjLV57WfR9x6QK" target="_blank"/a>
   <br />
 
   <div>
