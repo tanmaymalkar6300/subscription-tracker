@@ -42,7 +42,7 @@ This project is a backend API for managing subscriptions — ideal for SaaS plat
 
 It’s inspired by a video tutorial and restructured to deepen backend development understanding by working with real-world use cases like bot protection, request rate limiting, and cloud-based workflows.
 
-[📺 Tutorial Reference](https://youtu.be/rOpEN1JDaD0?si=WfOjLV57WfR9x6QK)
+
 
 ---
 
