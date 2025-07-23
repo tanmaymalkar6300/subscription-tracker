@@ -1,147 +1,131 @@
+
 <div align="center">
   <br />
     <a href="https://youtu.be/rOpEN1JDaD0?si=WfOjLV57WfR9x6QK" target="_blank">
       <img src="https://i.ibb.co/xtTbHkfs/Readme-Thumbnail.png" alt="Project Banner">
     </a>
   <br />
-  
+
   <div>
-    <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="node.js" />
-    <img src="https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="express.js" />
-    <img src="https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
+    <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+    <img src="https://img.shields.io/badge/mongodb-13aa52?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   </div>
 
-  <h3 align="center">A Subscription Management System API</h3>
+  <h3 align="center">Subscription Management API</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <div align="center">
+    A backend service for handling subscription data, user authentication, reminders, and more — built using Node.js, Express, and MongoDB.
+  </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+---
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+## 📌 Table of Contents
 
-## 🚨 Tutorial
+1. [Overview](#overview)
+2. [Tech Stack](#tech-stack)
+3. [Features](#features)
+4. [Getting Started](#getting-started)
+5. [Code Snippet](#code-snippet)
+6. [External Services](#external-services)
+7. [Extras](#extras)
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+---
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+## 🤖 Overview
 
-<a href="https://youtu.be/rOpEN1JDaD0?si=WfOjLV57WfR9x6QK" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+This project is a backend API for managing subscriptions — ideal for SaaS platforms or any product offering recurring services. It covers key areas such as:
 
-## <a name="introduction">🤖 Introduction</a>
+- User authentication via JWT
+- Secure subscription data handling
+- Automated email reminders
+- Error handling, logging, and more
 
-Build a **production-ready Subscription Management System API** that handles **real users, real money, and real business logic**.  
+It’s inspired by a video tutorial and restructured to deepen backend development understanding by working with real-world use cases like bot protection, request rate limiting, and cloud-based workflows.
 
-Authenticate users using JWTs, connect a database, create models and schemas, and integrate it with ORMs. Structure the architecture of your API to ensure scalability and seamless communication with the frontend.  
+[📺 Tutorial Reference](https://youtu.be/rOpEN1JDaD0?si=WfOjLV57WfR9x6QK)
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+---
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+## ⚙️ Tech Stack
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+- **Node.js** – runtime environment  
+- **Express.js** – backend framework  
+- **MongoDB** – NoSQL database  
+- **Mongoose** – ODM for MongoDB
 
-- Node.js
-- Express.js
-- MongoDB
+---
 
-## <a name="features">🔋 Features</a>
+## 🔋 Features
 
-👉 **Advanced Rate Limiting and Bot Protection**: with Arcjet that helps you secure the whole app.
+- ✅ **JWT-Based Authentication** for user sign-up and session control  
+- ✅ **Subscription Management** with CRUD operations  
+- ✅ **Advanced Rate Limiting & Bot Protection** using Arcjet  
+- ✅ **Email Reminders** via Upstash workflows  
+- ✅ **Centralized Error Handling** middleware  
+- ✅ **Environment-based Configuration** with `.env`  
+- ✅ **Code Architecture Designed for Scalability**
 
-👉 **Database Modeling**: Models and relationships using MongoDB & Mongoose.
+---
 
-👉 **JWT Authentication**: User CRUD operations and subscription management.
+## 🚀 Getting Started
 
-👉 **Global Error Handling**: Input validation and middleware integration.
+### Prerequisites
 
-👉 **Logging Mechanisms**: For better debugging and monitoring.
+Ensure you have the following installed:
 
-👉 **Email Reminders**: Automating smart email reminders with workflows using Upstash.
+- Git  
+- Node.js  
+- npm  
 
-and many more, including code architecture and reusability
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
+### Steps to Run Locally
 
 ```bash
+# Clone the repository
 git clone https://github.com/adrianhajdin/subscription-tracker-api.git
 cd subscription-tracker-api
-```
 
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
+# Install dependencies
 npm install
-```
+````
 
-**Set Up Environment Variables**
+### Environment Setup
 
-Create a new file named `.env.local` in the root of your project and add the following content:
+Create a `.env.local` file and add:
 
 ```env
-# PORT
 PORT=5500
-SERVER_URL="http://localhost:5500"
-
-# ENVIRONMENT
+SERVER_URL=http://localhost:5500
 NODE_ENV=development
-
-# DATABASE
-DB_URI=
-
-# JWT AUTH
-JWT_SECRET=
-JWT_EXPIRES_IN="1d"
-
-# ARCJET
-ARCJET_KEY=
-ARCJET_ENV="development"
-
-# UPSTASH
+DB_URI=your_mongo_uri
+JWT_SECRET=your_secret
+JWT_EXPIRES_IN=1d
+ARCJET_KEY=your_key
+ARCJET_ENV=development
 QSTASH_URL=http://127.0.0.1:8080
-QSTASH_TOKEN=
-
-# NODEMAILER
-EMAIL_PASSWORD=
+QSTASH_TOKEN=your_token
+EMAIL_PASSWORD=your_email_password
 ```
 
-**Running the Project**
+### Run the Server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5500](http://localhost:5500) in your browser or any HTTP client to test the project.
+Visit [http://localhost:5500](http://localhost:5500) in Postman or browser.
 
-## <a name="snippets">🕸️ Snippets</a>
+---
+
+## 🧩 Code Snippet
 
 <details>
-<summary><code>Dummy JSON Data</code></summary>
+<summary>Sample Subscription Object</summary>
 
 ```json
 {
-  "name": "Javascript Mastery Elite Membership",
+  "name": "JavaScript Mastery Elite Membership",
   "price": 139.00,
   "currency": "USD",
   "frequency": "monthly",
@@ -153,20 +137,13 @@ Open [http://localhost:5500](http://localhost:5500) in your browser or any HTTP 
 
 </details>
 
-## <a name="links">🔗 Links</a>
+---
 
-- **Arcjet** - [https://launch.arcjet.com/4g2R2e4](https://launch.arcjet.com/4g2R2e4)  
-- **Upstash** - [https://bit.ly/42ealiN](https://bit.ly/42ealiN)  
-- **Hostinger** - [https://hostinger.com/mastery10](https://hostinger.com/mastery10)  
-- **WebStorm** - [https://jb.gg/GetWebStormFree](https://jb.gg/GetWebStormFree)  
+## 🌐 External Services Used
 
-## <a name="more">🚀 More</a>
+* 🔐 **Arcjet** – App protection and bot filtering
+* 📤 **Upstash** – Queue-based email workflows
+* 📧 **Nodemailer** – For transactional emails
 
-**Advance your skills with Next.js Pro Course**
+---
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next15" target="_blank">
-   <img src="https://github.com/user-attachments/assets/b8760e69-1f81-4a71-9108-ceeb1de36741" alt="Project Banner">
-</a>
