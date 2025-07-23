@@ -40,8 +40,6 @@ This project is a backend API for managing subscriptions — ideal for SaaS plat
 - Automated email reminders
 - Error handling, logging, and more
 
-It’s inspired by a video tutorial and restructured to deepen backend development understanding by working with real-world use cases like bot protection, request rate limiting, and cloud-based workflows.
-
 
 
 ---
